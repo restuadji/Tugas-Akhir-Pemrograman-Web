@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Akhir</title>
+	<link rel="stylesheet" type="text/css" href="csspost.css"> <!-- Untuk Menambahkan CSS pada File yang berbeda-->
+	<script src="jsnya.js"></script> <!-- Untuk Menambahkan Javascript pada File yang berbeda-->
+</head>
+<body bgcolor="black"> <!-- bgcolor digunakan untuk pemberian warna pada background-->
+
+	<div class="header">
+		<h1><strong>Selamat Datang</strong></h1> <!-- h1 digunakan untuk ukuran font dan strong untuk mempertebal -->
+		<h4>Tugas Akhir Pemrograman Web</h4> <!-- h4 berupa ukuran font yang lebih kecil dari h1 -->
+			<div class="navbar"> <!-- membuat masing masing class div-->
+				<nav>
+					<a href="home.html">HOME</a> <!-- hyperlink menuju home.html -->
+					<a href="biodata.html">PROFILE</a> <!-- hyperlink menuju biodata.html-->
+					<a href="CONTACT.html">CONTACT</a> <!-- hyperlink menuju contact.html-->
+				</nav>
+			</div>
+	</div>
+
+	<div class="content"> <!-- membuat masing masing class div-->
+		<div class="kiri"> <!-- membuat masing masing class div-->
+			<p>
+				<li><a href="index.php">FORM</a></li> <!-- hyperlink menuju index.php-->
+				<li><a href="javas.html">Javascript</a></li> <!-- hyperlink menuju javas.html-->
+				<li><a href="hasildata.php">Data</a></li> <!-- hyperlink menuju hasildata.php-->
+			</p>
+		</div>
+
+		<div class="kanan"> <!-- membuat masing masing class div-->
+			<h1 align="center"><strong>Javascript</strong></h1>
+			<div class="biodata" align="center"> <!-- membuat masing masing class div-->
+				<script>
+					var nama = prompt("Siapa nama Anda?"); //untuk memunculkan prompt yang menanyakan nama anda
+					document.write("Hai, " + nama); //mengeluarkan hasil inputan pada prompt awal dengan nama yang telah anda isikan
+				</script><br>
+				<form name="formdaftar"> <!-- menggunakan form  -->
+					Nama Anda Sebagai Pengunjung: <!-- Tulisan yang muncul pada kiri form -->
+					<input name="nama" size="40" type="text"> <!-- form daftar yang memiliki size 40 dengan bertipe text -->
+					<input type="submit" value="Submit!" onClick="daftar()"> <!-- ketika submit di klik maka akan menggunakan fungsi daftar() pada javascript -->
+				</form><br>
+
+				<form name="formcari" onSubmit="cari()"> <!-- menggunakan form  -->
+					Mesin Pencari GOOGLE: <!-- Tulisan yang muncul pada kiri form -->
+					<input name="keyword" size="40" type="text"> <!-- form daftar yang memiliki size 40 dengan bertipe text -->
+					<input type="submit" value="Cari!"><!-- ketika submit di klik maka akan menggunakan fungsi cari() pada javascript -->
+				</form><br>
+				<button onclick="document.getElementById('demo').innerHTML=Date()"> <!-- menggunakan javascript untuk menentukan waktu pada saat ini  -->
+					Waktu saat ini?</button> <!-- Ketika tulisan waktu saat ini di klik maka akan muncul waktu pada saat ini juga-->
+				<p id="demo"></p>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer"> <!-- membuat masing masing class div-->
+		<p>&copy; Muhamad Restu Adji Pratama - 1800018041</p> <!-- &copy; digunakan untuk membuat lambang copyright -->
+	</div>
+
+</body>
+</html>

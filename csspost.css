@@ -1,0 +1,64 @@
+.header{ /* menggunakan style css pada class yang bernama header */
+	width: 100%; /* class header memiliki lebar 100% sesuai dengan rasio layar */
+	text-align: center; /* teks yang tertulis akan rata tengah */
+	border: 1px solid black; /* menggunakan border solid berwarna hitam berukuran 1px */
+	float: left; /*mengatur letak element pada kiri*/
+	background-color: black; /* menggunakan warna background hitam */
+	font-style: italic; /* menggunakan tipe huruf italic */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
+.navbar{
+	display: inline-grid;
+	width: 100%; /* class navbar memiliki lebar 100% sesuai dengan rasio layar */
+	text-align: center; /* teks yang tertulis akan rata tengah */
+	border: 1px solid black; /* menggunakan border solid berwarna hitam berukuran 1px */
+	background-color: white; /* menggunakan warna background putih */
+	color: white; /* huruf yang ditulis berwarna putih */
+
+}
+.content{
+	width: 100%; /* class content memiliki lebar 100% sesuai dengan rasio layar */
+}
+.kanan{
+	width: 69.7%; /* class kanan memiliki lebar 69.7% sesuai dengan rasio layar */
+	float: right; /*mengatur letak element pada kanan*/
+	height: 500px; /* class kanan memiliki panjang 500px sesuai dengan rasio layar */
+	border: 1px solid white; /* menggunakan border solid berwarna putih berukuran 1px */
+	background-color: black; /* menggunakan warna background hitam */
+	font-style: initial; /* menggunakan tipe huruf initial */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
+.biodata{
+	width: 100%; /* class biodata memiliki lebar 100% sesuai dengan rasio layar */
+	text-align: center; /* teks yang tertulis akan rata tengah */
+	font-style: italic; /* menggunakan tipe huruf italic */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
+.foto{
+	width: 100%; /* class foto memiliki lebar 100% sesuai dengan rasio layar */
+}
+.form{
+	width: 100%; /* class form memiliki lebar 100% sesuai dengan rasio layar */
+	text-align: left; /* teks yang tertulis akan rata kiri */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
+.kiri{
+	width: 30%; /* class kiri memiliki lebar 30% sesuai dengan rasio layar */
+	height: 500px; /* class kiri memiliki panjang 500px sesuai dengan rasio layar */
+	float: left; /*mengatur letak element pada kiri*/
+	border: 1px solid black; /* menggunakan border solid berwarna hitam berukuran 1px */
+	text-align: left; /* teks yang tertulis akan rata kiri */
+	background-color: white; /* menggunakan warna background putih */
+	font-style: initial; /* menggunakan tipe huruf initial */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
+.footer{
+	width: 100%; /* class footer memiliki lebar 100% sesuai dengan rasio layar */
+	height: 40px; /* class footer memiliki panjang 100% sesuai dengan rasio layar */
+	float: left; /*mengatur letak element pada kiri*/
+	border: 1px solid white; /* menggunakan border solid berwarna putih berukuran 1px */
+	text-align: center; /* teks yang tertulis akan rata tengah */
+	background-color: black; /* menggunakan warna background hitam */
+	font-style: initial; /* menggunakan tipe huruf initial */
+	color: white; /* huruf yang ditulis berwarna putih */
+}
